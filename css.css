@@ -1,0 +1,65 @@
+body {
+    background: rgb(22,89,85);
+    background: linear-gradient(180deg, rgba(22,89,85,1) 10%, rgba(3,187,245,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: 'Grenze', serif;
+}
+.heading-primary {
+    margin-top: 10px;
+    font-family: 'Galdeano', sans-serif;
+    font-size: 30px;
+}
+.heading-secondary {
+    font-family: 'Grenze', serif;
+    font-size: 23px;
+    margin-bottom: 35px;
+}
+h3{
+    margin-top: 20px;
+    font-size: 28px;
+    color: white;
+}
+h4{
+    margin-top: 20px;
+    color: white;
+}
+.logo img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 30px;
+}
+.logar{
+    width: 350px;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 450px;
+    height: 315px;
+    background-color: rgba(80,80,80,0.7);
+    border-radius: 30px;
+}
+.box2 {
+    width: 500px;
+    height: 445px;
+    background-color: rgba(80,80,80,0.7);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+button{
+    align-self: center;
+    margin-top: 8px;
+    width: 49%;
+}
+li{
+    margin-top: 10px;
+    color: white;
+}
